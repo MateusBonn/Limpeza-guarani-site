@@ -1,0 +1,61 @@
+@keyframes balance {
+    0% {
+      transform: rotate(-20deg)
+    }
+  
+    100% {
+      transform: rotate(0deg)
+    }
+  }
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-grow: 1;
+
+    h1 {
+      font-size: 52px;
+    }
+
+    .bubble {
+      padding: 12px 14px;
+      border-radius: 100%;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+ 
+      &.broom {
+        right: 20px;
+        transform: rotate(-50deg);
+        bottom: 30%;
+        font-size: 24px;
+        animation: balance 800ms alternate 200ms infinite;
+      }
+
+      &.sponge {
+        top: 20%;
+        right: 100px;
+        font-size: 42px;
+        animation: balance 800ms alternate 200ms infinite;
+      }
+
+      &.splash {
+        left: 150px;
+        top: 10%;
+        font-size: 72px;
+        animation: balance 1000ms alternate 200ms infinite;
+
+      }
+
+      &.house{
+        bottom: 20%;
+        left: 5%;
+        font-size: 26px;
+      }
+
+    }
+  }
