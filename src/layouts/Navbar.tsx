@@ -1,4 +1,4 @@
-import '../styles/navbar.scss'
+import '../styles/Navbar.scss'
 import { Link  } from 'react-router-dom'
 import { ArrowIcon } from "../components/arrow-icon";
 import { Logo } from "../components/logo";
