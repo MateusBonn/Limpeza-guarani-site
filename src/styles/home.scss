@@ -14,10 +14,30 @@
     justify-content: center;
     position: relative;
     flex-grow: 1;
+    width: 100%;
+    padding: 32px;
 
-    h1 {
-      font-size: 52px;
+
+    .heading-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 60%;
+
+      h2 {
+        font-size: 52px;
+        align-items: flex-start;
+        font-weight: 800;
+
+        &:first-of-type {
+          align-self: flex-start;
+
+        }
+      }
     }
+
+   
 
     .bubble {
       padding: 12px 14px;
@@ -29,7 +49,7 @@
 
  
       &.broom {
-        right: 20px;
+        right: 550px;
         transform: rotate(-50deg);
         bottom: 30%;
         font-size: 24px;
@@ -38,7 +58,7 @@
 
       &.sponge {
         top: 20%;
-        right: 100px;
+        right: 600px;
         font-size: 42px;
         animation: balance 800ms alternate 200ms infinite;
       }
@@ -53,7 +73,7 @@
 
       &.house{
         bottom: 20%;
-        left: 5%;
+        left: 30%;
         font-size: 26px;
       }
 

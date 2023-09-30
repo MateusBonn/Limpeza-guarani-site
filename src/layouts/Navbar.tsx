@@ -1,4 +1,5 @@
 import '../styles/navbar.scss'
+import { Link  } from 'react-router-dom'
 import { ArrowIcon } from "../components/arrow-icon";
 import { Logo } from "../components/logo";
 
@@ -9,17 +10,23 @@ function Navbar() {
         <header className='header-container'>
             <Logo/>
             <nav className='menu-options'>
-                <a>Sobre nós</a>
-                <a>Nossos serviços</a>
-                <a>Portfolio</a>
+                <a>
+                    <Link to="/">Sobre nós</Link>
+                </a>
+                <a>
+                    <Link to="/ourService">Nossos serviços</Link>
+                </a>
+                <a>
+                    <Link to="/howWeWork">Nosso trabalho</Link>
+                </a>
             </nav>
             <button >
             <div className='btn-face-white'>
-                Contact us
+                <Link to="/contactUs">Fale Conosco</Link>
                 <ArrowIcon/>
             </div>
             <div className='btn-face-purple'>
-                Contact us
+                <Link to="/contactUs">Fale Conosco</Link>
                 <ArrowIcon />
             </div>
             </button>
