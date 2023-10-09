@@ -20,4 +20,4 @@ function RouterMap() {
     )
 }
 
-export default RouterMap;
+export default RouterMap

@@ -1,7 +1,7 @@
 export function Logo() {
     return (
         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="200px" height="200px" viewBox="0 0 200 200" enable-background="new 0 0 200 200">
-            <image id="image0" width="150" height="150" x="0" y="0"
+            <image id="image0" width="130" height="150" x="0" y="0"
     href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAIAAAAiOjnJAAA9q0lEQVR42u19eXwURfr+W1Xdc1+5
 gXAl3IcgBLlWQRQQcFfZBVFXdLk8UFeQBVlF0NXfrgq6iwei7oIKC35FrlUu5VgUVESUQyDIGXJC
 rklmMmd3V/3+qExncswkgQxhsZ+PH5zMVFdXVz1d9dZ7FWKMgQYNTQ3c3A3QcG1CI5aGmEAjloaY
