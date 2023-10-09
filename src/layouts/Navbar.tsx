@@ -1,5 +1,3 @@
-import { useState } from "react";
-import { AiFillAppstore } from "react-icons/ai";
 import '../styles/navbar.scss'
 import { Link  } from 'react-router-dom'
 import { ArrowIcon } from "../components/arrow-icon";
