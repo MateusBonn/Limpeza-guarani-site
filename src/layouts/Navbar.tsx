@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { AiFillAppstore } from "react-icons/ai";
-import '../styles/navbar.scss'
+import '../styles/Navbar.scss'
 import { Link  } from 'react-router-dom'
 import { Logo } from "../components/logo";
 
